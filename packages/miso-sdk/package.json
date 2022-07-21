@@ -1,5 +1,5 @@
 {
-  "name": "@supakawaiidesu/tines",
+  "name": "@supakawaiidesu/miso-sdk",
   "version": "1.0.0-alpha.645+f67a58c",
   "license": "MIT",
   "main": "dist/index.js",
@@ -7,10 +7,10 @@
   "files": [
     "dist"
   ],
-  "module": "dist/tines.esm.js",
+  "module": "dist/miso-sdk.esm.js",
   "repository": {
     "url": "supakawaiidesu/sdk",
-    "directory": "packages/tines"
+    "directory": "packages/miso-sdk"
   },
   "publishConfig": {
     "access": "public",
@@ -20,18 +20,10 @@
     "lint": "tsdx lint src test",
     "build": "tsdx build",
     "watch": "tsdx watch",
-    "test": "tsdx test",
-    "test_debug": "node --inspect-brk '../../node_modules/tsdx/dist/index.js' test",
-    "clear_jest_cache": "tsdx test --clearCache --passWithNoTests",
+    "test": "tsdx test --passWithNoTests",
     "prepublishOnly": "npx tsdx build"
   },
-  "dependencies": {
-    "@ethersproject/bignumber": "^5.4.0",
-    "@sushiswap/core-sdk": "1.0.0-canary.123"
-  },
   "devDependencies": {
-    "@types/seedrandom": "^3.0.1",
-    "seedrandom": "^3.0.5",
     "tsdx": "^0.14.1"
   },
   "gitHead": "f67a58cee084ae5842d66eee39a9ee834bfd6ef9"
