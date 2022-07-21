@@ -1,5 +1,5 @@
 {
-  "name": "@sushiswap/kashi-sdk",
+  "name": "@supakawaiidesu/kashi-sdk",
   "version": "1.0.0-canary.95",
   "license": "MIT",
   "main": "dist/index.js",
@@ -9,7 +9,7 @@
   ],
   "module": "dist/kashi-sdk.esm.js",
   "repository": {
-    "url": "sushiswap/sdk",
+    "url": "supakawaiidesu/sdk",
     "directory": "packages/kashi-sdk"
   },
   "publishConfig": {
