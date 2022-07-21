@@ -16,7 +16,7 @@ import {
   Telos,
   xDai,
   Metis,
-  RSK,
+  Rsk,
 } from '../entities/Native'
 
 import { ChainId } from '../enums'
