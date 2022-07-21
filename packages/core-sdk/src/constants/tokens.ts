@@ -68,6 +68,7 @@ export const WETH9: TokenMap = {
   [ChainId.OPTIMISM]: new Token(ChainId.OPTIMISM, WETH9_ADDRESS[ChainId.OPTIMISM], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.KAVA]: new Token(ChainId.KAVA, WETH9_ADDRESS[ChainId.KAVA], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.METIS]: new Token(ChainId.METIS, WETH9_ADDRESS[ChainId.METIS], 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.RSK]: new Token(ChainId.RSK, WETH9_ADDRESS[ChainId.RSK], 18, 'WETH', 'Wrapped Ether'),
 }
 
 export const WNATIVE: TokenMap = {
@@ -157,6 +158,7 @@ export const WNATIVE: TokenMap = {
   [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, WNATIVE_ADDRESS[ChainId.MOONBEAM], 18, 'WGLMR', 'Wrapped Glimmer'),
   [ChainId.KAVA]: new Token(ChainId.KAVA, WNATIVE_ADDRESS[ChainId.KAVA], 18, 'WKAVA', 'Wrapped Kava'),
   [ChainId.METIS]: new Token(ChainId.METIS, WNATIVE_ADDRESS[ChainId.METIS], 18, 'WMETIS', 'Wrapped Metis'),
+  [ChainId.RSK]: new Token(ChainId.RSK, WNATIVE_ADDRESS[ChainId.RSK], 18, 'WRBTC', 'Wrapped rBTC'),
 }
 
 export const SUSHI: ChainTokenMap = {

@@ -16,6 +16,7 @@ import {
   Telos,
   xDai,
   Metis,
+  RSK,
 } from '../entities/Native'
 
 import { ChainId } from '../enums'
@@ -54,4 +55,5 @@ export const NATIVE: NativeMap = {
   [ChainId.OPTIMISM]: Ether.onChain(ChainId.OPTIMISM),
   [ChainId.KAVA]: Kava.onChain(ChainId.KAVA),
   [ChainId.METIS]: Metis.onChain(ChainId.METIS),
+  [ChainId.RSK]: Rsk.onChain(ChainId.RSK),
 }
