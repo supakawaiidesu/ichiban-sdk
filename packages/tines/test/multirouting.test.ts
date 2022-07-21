@@ -1,6 +1,6 @@
 import { checkRouteResult } from './snapshots/snapshot'
 import { RToken, ConstantProductRPool } from '../src/PrimaryPools'
-import { USDC, WNATIVE } from '@sushiswap/core-sdk'
+import { USDC, WNATIVE } from '@supakawaiidesu/core-sdk'
 import { getBigNumber, RouteStatus, findMultiRouteExactIn, findMultiRouteExactOut, closeValues, MultiRoute } from '../src'
 import { BigNumber } from '@ethersproject/bignumber'
 

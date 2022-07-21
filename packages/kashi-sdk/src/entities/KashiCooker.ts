@@ -1,4 +1,4 @@
-import { ChainId, WNATIVE_ADDRESS, ZERO, getProviderOrSigner, toElastic } from '@sushiswap/core-sdk'
+import { ChainId, WNATIVE_ADDRESS, ZERO, getProviderOrSigner, toElastic } from '@supakawaiidesu/core-sdk'
 
 import { AddressZero } from '@ethersproject/constants'
 import { Contract } from '@ethersproject/contracts'

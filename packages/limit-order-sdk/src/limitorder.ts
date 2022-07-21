@@ -1,4 +1,4 @@
-import { ChainId, CurrencyAmount, Price, Token, validateAndParseAddress } from '@sushiswap/core-sdk'
+import { ChainId, CurrencyAmount, Price, Token, validateAndParseAddress } from '@supakawaiidesu/core-sdk'
 import { LAMBDA_URL, STOP_LIMIT_ORDER_ADDRESS } from './constants'
 import { Message, getSignature, getSignatureWithProvider, getTypeHash, getTypedData } from './eip712'
 

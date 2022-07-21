@@ -1,4 +1,4 @@
-import { AddressMap } from "@sushiswap/core-sdk"
+import { AddressMap } from "@supakawaiidesu/core-sdk"
 
 export const MISO_TOKEN_FACTORY_ADDRESS: AddressMap = {}
 

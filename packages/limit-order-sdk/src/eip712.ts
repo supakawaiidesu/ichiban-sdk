@@ -1,4 +1,4 @@
-import { BENTOBOX_ADDRESS, ChainId } from '@sushiswap/core-sdk'
+import { BENTOBOX_ADDRESS, ChainId } from '@supakawaiidesu/core-sdk'
 import { bentoTypes, name, types } from './types'
 
 import { STOP_LIMIT_ORDER_ADDRESS } from './constants'

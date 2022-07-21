@@ -1,4 +1,4 @@
-import { ZERO, JSBI, Rebase } from '@sushiswap/core-sdk'
+import { ZERO, JSBI, Rebase } from '@supakawaiidesu/core-sdk'
 
 export function toAmount(token: Rebase, shares: JSBI): JSBI {
   return JSBI.GT(token.base, 0) ? JSBI.divide(JSBI.multiply(shares, token.elastic), token.base) : ZERO

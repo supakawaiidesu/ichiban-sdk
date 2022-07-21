@@ -1,6 +1,6 @@
 {
   "name": "@supakawaiidesu/tines",
-  "version": "1.0.0-canary.107",
+  "version": "1.0.0-alpha.645+f67a58c",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -34,5 +34,5 @@
     "seedrandom": "^3.0.5",
     "tsdx": "^0.14.1"
   },
-  "gitHead": "c3266268d6fa248ca495ee9f043bf9745e736bae"
+  "gitHead": "f67a58cee084ae5842d66eee39a9ee834bfd6ef9"
 }
