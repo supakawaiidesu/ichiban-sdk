@@ -1,6 +1,6 @@
 {
   "name": "@supakawaiidesu/core-sdk",
-  "version": "1.0.0-alpha.645+f67a58c",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
