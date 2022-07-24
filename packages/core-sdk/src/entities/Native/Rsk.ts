@@ -6,7 +6,7 @@ import invariant from 'tiny-invariant'
 
 export class Rsk extends NativeCurrency {
   protected constructor(chainId: number) {
-    super(chainId, 18, 'BTC', 'Bitcoin')
+    super(chainId, 18, 'rBTC', 'rBitcoin')
   }
 
   public get wrapped(): Token {
